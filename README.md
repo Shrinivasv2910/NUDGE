@@ -1,7 +1,7 @@
 # NUDGE — Navigation Using DDPG-Guided Estimation
 
 > **Simulation-first framework for GPS-denied autonomous drone positioning** — fuses UWB ranging from four fixed anchors with a three-stage DSP pipeline and a DDPG reinforcement learning agent that adaptively tunes Kalman filter parameters in real time.  
-> Validated against the **IEEE 802.15.4a CM4 Industrial NLOS** channel model. Developed under the **DST-CHANAKYA Fellowship**, NIT Patna Robotics Lab.
+> Validated against the **IEEE 802.15.4a CM4 Industrial NLOS** channel model. 
 
 ---
 
@@ -147,21 +147,3 @@ The DDPG agent converges within ~300 training episodes and generalises well to u
 
 ---
 
-## Related Work
-
-This repository is part of the broader **DST-CHANAKYA Fellowship** project on UWB-based swarm drone navigation for mine monitoring at NIT Patna. The hardware deployment target is a GPS-denied quadrotor swarm using Decawave DWM1000 UWB modules.
-
----
-
-## License
-
-MIT License — see `LICENSE` for details.
-
----
-
-## Acknowledgements
-
-Developed at **NIT Patna Mechatronics & Automation Engineering** lab.
-
-**Faculty Mentor:** Dr. Golak Bihari Mahanta, Assistant Professor, Dept. of Mechatronics & Automation Engineering, NIT Patna  
-**Author:** Shrinivas Velu
